@@ -297,22 +297,33 @@ Full-Width Styles
 
 #header_wrap .inner {
   padding: 50px 10px 30px 10px;
+  display: flex;
 }
 
-#project_title {
+#personal_image {
+    width: 200px;
+    height: 200px;
+}
+
+#header_info {
+    padding: 0px 40px 20px 0px;
+}
+
+#header_info .header_text {
+    color: #fff;
+    background: none;
+    text-shadow: #111 0px 0px 10px;
+}
+
+#my_name {
   margin: 0;
-  color: #fff;
   font-size: 42px;
   font-weight: 700;
-  text-shadow: #111 0px 0px 10px;
 }
 
-#project_tagline {
-  color: #fff;
-  font-size: 24px;
+#header_info h2 {
+  font-size: 20px;
   font-weight: 300;
-  background: none;
-  text-shadow: #111 0px 0px 10px;
 }
 
 #downloads {
