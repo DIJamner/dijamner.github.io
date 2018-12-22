@@ -256,6 +256,10 @@ form {
   padding: 20px;
 }
 
+.venue {
+    font-style: italic;
+}
+
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
@@ -321,10 +325,11 @@ Full-Width Styles
   font-weight: 700;
 }
 
-#header_info h2 {
+/*
+#header_info h4 {
   font-size: 20px;
   font-weight: 300;
-}
+  }*/
 
 #downloads {
   position: absolute;
